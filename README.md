@@ -14,6 +14,9 @@
   <h1 align="center"> gatsby-env-variables </h1>
 </p>
 
+<p align="center">
+  Fork of luanbitar/gatsby-env-variables
+</p>
 
 <p align="center">
   Webpack feature to provide your custom environment variables in client side
