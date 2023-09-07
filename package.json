@@ -1,6 +1,6 @@
 {
   "name": "@v.nikolaev/gatsby-env-variables",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Use your env variables in client side. Fork of luanbitar/gatsby-env-variables",
   "main": "index.js",
   "repository": "git@github.com:niko1aew/gatsby-env-variables.git",
