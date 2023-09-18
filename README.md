@@ -2,16 +2,16 @@
   <img src="illustration.svg" width="300">
 </p>
 <p align="center">
-  <a href="https://www.npmjs.com/package/gatsby-env-variables">
-    <img src="https://img.shields.io/npm/v/gatsby-env-variables.svg">
+  <a href="https://www.npmjs.com/package/gatsby-env-variables-fork">
+    <img src="https://img.shields.io/npm/v/gatsby-env-variables-fork.svg">
   </a>
-  <a href="https://www.npmjs.com/package/gatsby-env-variables">
-    <img src="https://img.shields.io/npm/dt/gatsby-env-variables.svg">
+  <a href="https://www.npmjs.com/package/gatsby-env-variables-fork">
+    <img src="https://img.shields.io/npm/dt/gatsby-env-variables-fork.svg">
   </a>
 </p>
 
 <p align="center">
-  <h1 align="center"> gatsby-env-variables </h1>
+  <h1 align="center"> gatsby-env-variables-fork </h1>
 </p>
 
 <p align="center">
@@ -28,11 +28,11 @@
 
 ## Install
 
-`$ npm i gatsby-env-variables`
+`$ npm i gatsby-env-variables-fork`
 
 or
 
-`$ yarn add gatsby-env-variables`
+`$ yarn add gatsby-env-variables-fork`
 
 ## How to use
 
@@ -41,7 +41,7 @@ Add the plugin to your `gatsby-config.js`.
 ```javascript
 module.exports = {
   plugins: [
-    `gatsby-env-variables`
+    `gatsby-env-variables-fork`
   ]
 }
 ```
@@ -98,7 +98,7 @@ If you don't want to use `/* globals */` in each file, just create an empty `.es
 ## Importing variables
 
 ```javascript
-import { API_ROOT, CARDS } from "gatsby-env-variables"
+import { API_ROOT, CARDS } from "gatsby-env-variables-fork"
 
 function Example() {
   const cardsURL = API_ROOT + CARDS // stg.example.com/cards
@@ -193,7 +193,7 @@ Example:
 module.exports = {
   plugins: [
     {
-      resolve: `gatsby-env-variables`,
+      resolve: `gatsby-env-variables-fork`,
       options: {
         envFolderPath: `src/env/`
       }
@@ -220,7 +220,7 @@ Example:
 module.exports = {
   plugins: [
     {
-      resolve: `gatsby-env-variables`,
+      resolve: `gatsby-env-variables-fork`,
       options: {
         envFolderPath: `config/`
       }
